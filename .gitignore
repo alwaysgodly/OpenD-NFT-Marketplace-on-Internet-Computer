@@ -1,15 +1,26 @@
-# Various IDEs and Editors
+# ========= Node / React =========
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+build/
+dist/
+
+# ========= DFINITY / ICP =========
+.dfx/
+dfx-generated/
+canister_ids.json
+.env
+
+# ========= OS / Editor =========
+.DS_Store
+Thumbs.db
+*Zone.Identifier*
+
 .vscode/
 .idea/
-**/*~
 
-# Mac OSX temporary files
-.DS_Store
-**/.DS_Store
-
-# dfx temporary files
-.dfx/
-
-# frontend code
-node_modules/
-dist/
+# ========= Logs =========
+logs/
+*.log
